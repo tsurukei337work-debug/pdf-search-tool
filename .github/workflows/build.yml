@@ -22,10 +22,10 @@ jobs:
 
     - name: Build EXE with PyInstaller
       run: |
-        pyinstaller --onefile --noconsole pdfserch2.py
+        pyinstaller --onefile --noconsole pdfserch3.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4 # ここが重要！v3からv4に修正
       with:
         name: PDF-Search-Tool
-        path: dist/pdfserch2.exe
+        path: dist/pdfserch3.exe
