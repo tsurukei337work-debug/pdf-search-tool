@@ -2,3 +2,4 @@ pandas
 pypdf
 openpyxl
 pyinstaller
+pymupdf
